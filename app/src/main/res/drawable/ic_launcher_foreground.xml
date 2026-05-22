@@ -1,0 +1,42 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+    
+    <!-- Outer gold ring -->
+    <path
+        android:strokeColor="#FFD700"
+        android:strokeWidth="2.5"
+        android:fillColor="#00000000"
+        android:pathData="M 54 54 m -35,0 a 35,35 0 1,1 70,0 a 35,35 0 1,1 -70,0" />
+
+    <!-- Clapperboard Base (slate black) -->
+    <path
+        android:fillColor="#232735"
+        android:pathData="M34,48 h40 v25 c0,2.2 -1.8,4 -4,4 h-32 c-2.2,0 -4,-1.8 -4,-4 z" />
+        
+    <!-- Clapperboard Top Stick (Gold) -->
+    <path
+        android:fillColor="#FFD700"
+        android:pathData="M34,39 h40 v6 h-40 z" />
+        
+    <!-- Clapperboard Stripes (White) -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M39,39 l4,6 h-3 l-4,-6 z
+                          M49,39 l4,6 h-3 l-4,-6 z
+                          M59,39 l4,6 h-3 l-4,-6 z
+                          M69,39 l4,6 h-3 l-4,-6 z" />
+
+    <!-- Board internal details: Clapperboard Lines / Stars -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M40,55 h28 v2 h-28 z
+                          M40,61 h20 v2 h-20 z" />
+                          
+    <!-- A cute gold star in the bottom corner -->
+    <path
+        android:fillColor="#FFD700"
+        android:pathData="M64,61.5 l1.2,2.4 l2.6,0.4 l-1.9,1.8 l0.4,2.6 l-2.3,-1.2 l-2.3,1.2 l0.4,-2.6 l-1.9,-1.8 l2.6,-0.4 z" />
+</vector>
